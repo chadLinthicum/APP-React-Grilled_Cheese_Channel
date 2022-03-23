@@ -1,46 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap");
 
 body {
   font-family: "Mochiy Pop P One", sans-serif;
-  background-color: rgb(114, 51, 0);
+  background-color: #5998a3;
   margin: 0;
-}
-
-.nav-main {
-  background: linear-gradient(
-    90deg,
-    rgba(211, 211, 211, 1) 0%,
-    rgb(218, 160, 0) 100%
-  );
-  padding: 1px;
-  text-align: center;
-}
-
-.nav-sub {
-  box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.2);
-  background: linear-gradient(
-    90deg,
-    rgba(211, 211, 211, 1) 0%,
-    rgb(218, 160, 0) 100%
-  );
-}
-
-ul {
-  list-style-type: none; /*removes bullets*/
-  margin: 0;
-  padding: 0;
-  overflow: auto;
-  background-color: rgb(77, 72, 72);
-  box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.2);
+  color: #030909;
 }
 
 li a {
-  min-width: 100px;
-  background-color: coral;
-  display: block;
-  color: white;
+  min-width: 135px;
+  background-color: #b77f4c;
+  color: #fce95e;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px;
   text-decoration: none;
   float: left;
   border-top: none;
@@ -50,11 +23,38 @@ li a {
 }
 
 li a:hover {
-  display: block;
-  background-color: aliceblue;
-  color: rgb(34, 33, 33);
+  padding: 10px;
+  background-color: #fffbf3;
+  color: #030909;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
   float: left;
+}
+
+ul {
+  list-style-type: none; /*removes bullets*/
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color: #030909;
+  box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.2);
+}
+
+.home {
+  text-align: center;
+}
+
+.nav-main {
+  font-family: "Londrina Outline", sans-serif;
+  background: linear-gradient(90deg, #fffbf3 0%, #5998a3 60%);
+  padding: 1px;
+  text-align: center;
+}
+
+.nav-main-title {
+  margin: 20px;
+  font-size: 60px;
+}
+
+.nav-sub {
+  box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.2);
 }

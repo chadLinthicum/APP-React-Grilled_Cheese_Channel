@@ -4,7 +4,7 @@ import Game from "./components/Game";
 import Slideshow from "./components/Slideshow";
 import Checklist from "./components/Checklist";
 
-import { Route, Routes, Link, BrowserRouter as Router } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (

@@ -1,13 +1,13 @@
 import React from "react";
 // import stockImage from "../assets/stockImage.png";
 /* <img src={stockImage} width="75" alt="" /> */
-import { Route, Routes, Link, BrowserRouter as Router } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <>
       <nav className="nav-main">
-        <h1>Grilled Cheese Channel</h1>
+        <h1 className="nav-main-title">Grilled Cheese Channel</h1>
       </nav>
       <nav className="nav-sub">
         <ul>
