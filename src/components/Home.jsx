@@ -5,10 +5,10 @@ const Home = () => {
   return (
     <>
       <div className="home">
-        <h3>Welcome to Grilled Cheese Channel!</h3>
-        <h4>
+        <h2>Welcome to Grilled Cheese Channel!</h2>
+        <h3>
           Take a look around and get ready to make the best grilled cheese ever!
-        </h4>
+        </h3>
         <img src={sparklinGrilledCheese} width="500" alt="" />
       </div>
     </>
