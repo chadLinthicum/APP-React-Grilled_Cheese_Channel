@@ -58,3 +58,30 @@ body {
   padding: 15px;
   margin: 0;
 }
+
+ul {
+  list-style-type: none; /*removes bullets*/
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color: rgb(77, 72, 72);
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
+
+li a:hover {
+  display: block;
+  background-color: aliceblue;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
