@@ -1,7 +1,23 @@
 import React, { useState } from "react";
 
 const Checklist = () => {
-  const [checked, setChecked] = useState(false);
+  const Checkbox = () => {
+    const [isChecked, setIsChecked] = useState(false);
+    const handleCheck = () => {
+      setIsChecked(!isChecked);
+    };
+
+    return (
+      <div>
+        <input
+          type="checkbox"
+          id="checkbox"
+          checked={isChecked}
+          onChange={handleCheck}
+        />
+      </div>
+    );
+  };
 
   return (
     <div className="checklist">
@@ -22,21 +38,13 @@ const Checklist = () => {
           <tbody>
             <tr>
               <td>
-                <input
-                  type="checkbox"
-                  checked={checked}
-                  onChange={(e) => setChecked(e.target.checked)}
-                />
+                <Checkbox />
               </td>
               <td>Pan</td>
             </tr>
             <tr>
               <td>
-                <input
-                  type="checkbox"
-                  checked={checked}
-                  onChange={(e) => setChecked(e.target.checked)}
-                />
+                <Checkbox />
               </td>
               <td>Spatula</td>
             </tr>
