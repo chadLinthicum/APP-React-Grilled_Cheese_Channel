@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+
+body {
+  font-family: "Mochiy Pop P One", sans-serif;
+  background-color: rgb(114, 51, 0);
+  margin: 0;
+}
+
+.nav-main {
+  background: linear-gradient(
+    90deg,
+    rgba(211, 211, 211, 1) 0%,
+    rgb(218, 160, 0) 100%
+  );
+  padding: 1px;
+  text-align: center;
+}
+
+.nav-sub {
+  box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(
+    90deg,
+    rgba(211, 211, 211, 1) 0%,
+    rgb(218, 160, 0) 100%
+  );
+}
+
+.nav-buttons {
+  font-family: "Mochiy Pop P One", sans-serif;
+  background-color: coral;
+  padding: 15px;
+  margin: 0;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  min-width: 125px;
+}
+
+.nav-buttons:hover {
+  font-family: "Mochiy Pop P One", sans-serif;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  margin: 0;
+}
+
+.nav-buttons-game {
+  font-family: "Mochiy Pop P One", sans-serif;
+  background-color: coral;
+  padding: 15px;
+  margin: 0;
+  border: none;
+  min-width: 125px;
+}
+
+.nav-buttons-game:hover {
+  font-family: "Mochiy Pop P One", sans-serif;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  margin: 0;
+}
