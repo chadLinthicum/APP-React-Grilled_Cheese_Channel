@@ -5,9 +5,7 @@ const Checklist = () => {
   return (
     <>
       <main>
-        <main>
-          <h2>Welcome to the checklist!</h2>
-        </main>
+        <h2>Welcome to the checklist!</h2>
       </main>
     </>
   );

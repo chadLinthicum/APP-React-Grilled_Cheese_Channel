@@ -12,10 +12,16 @@ const Navbar = () => {
       <nav className="nav-sub">
         <ul>
           <li>
-            <Link to="/home">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <Link to="/checklist">Checklist</Link>
+          </li>
+          <li>
+            <Link to="/slideshow">Slideshow</Link>
+          </li>
+          <li>
+            <Link to="/game">Game</Link>
           </li>
         </ul>
       </nav>

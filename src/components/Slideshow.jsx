@@ -3,7 +3,9 @@ import React from "react";
 const Slideshow = () => {
   return (
     <>
-      <h1>Slideshow</h1>
+      <main>
+        <h2>Welcome to the slideshow!</h2>
+      </main>
     </>
   );
 };

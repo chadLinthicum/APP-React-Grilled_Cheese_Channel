@@ -25,55 +25,28 @@ body {
   );
 }
 
-.nav-buttons {
-  font-family: "Mochiy Pop P One", sans-serif;
-  background-color: coral;
-  padding: 15px;
-  margin: 0;
-  border-top: none;
-  border-left: none;
-  border-bottom: none;
-  min-width: 125px;
-}
-
-.nav-buttons:hover {
-  font-family: "Mochiy Pop P One", sans-serif;
-  background-color: rgb(255, 255, 255);
-  padding: 15px;
-  margin: 0;
-}
-
-.nav-buttons-game {
-  font-family: "Mochiy Pop P One", sans-serif;
-  background-color: coral;
-  padding: 15px;
-  margin: 0;
-  border: none;
-  min-width: 125px;
-}
-
-.nav-buttons-game:hover {
-  font-family: "Mochiy Pop P One", sans-serif;
-  background-color: rgb(255, 255, 255);
-  padding: 15px;
-  margin: 0;
-}
-
 ul {
   list-style-type: none; /*removes bullets*/
   margin: 0;
   padding: 0;
   overflow: auto;
   background-color: rgb(77, 72, 72);
+  box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.2);
 }
 
 li a {
+  min-width: 100px;
+  background-color: coral;
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   float: left;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  border-right: 1px solid black;
 }
 
 li a:hover {

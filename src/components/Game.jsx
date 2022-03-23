@@ -3,7 +3,9 @@ import React from "react";
 const Game = () => {
   return (
     <>
-      <h1>Game</h1>
+      <main>
+        <h2>Welcome to the game!</h2>
+      </main>
     </>
   );
 };
