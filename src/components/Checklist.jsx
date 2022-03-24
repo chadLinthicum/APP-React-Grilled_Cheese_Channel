@@ -1,31 +1,24 @@
 import React, { useState } from "react";
 
 const Checklist = () => {
-  const Checkbox = () => {
-    const [isChecked, setIsChecked] = useState(false);
-    const handleCheck = () => {
-      setIsChecked(!isChecked);
-    };
+  const allItems = [
+    { name: "Pan", checked: false },
+    { name: "Spatula", checked: false },
+    { name: "Bread", checked: false },
+    { name: "Butter", checked: false },
+    { name: "Cheese", checked: false },
+  ];
 
-    return (
-      <div>
-        <input
-          type="checkbox"
-          id="checkbox"
-          checked={isChecked}
-          onChange={handleCheck}
-        />
-      </div>
-    );
-  };
+  const [items, setItems] = useState(allItems);
 
   return (
     <div className="checklist">
       <div>
+        <br />
         <h2>
           👨‍🍳 Do you have everything you need to be a top sandwich chef? 👩‍🍳
         </h2>
-        <h3>Check each supply box below:</h3>
+        <h3>Check each item's box below:</h3>
       </div>
       <div>
         <table>
@@ -36,22 +29,28 @@ const Checklist = () => {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>
-                <Checkbox />
-              </td>
-              <td>Pan</td>
-            </tr>
-            <tr>
-              <td>
-                <Checkbox />
-              </td>
-              <td>Spatula</td>
-            </tr>
+            {items.map((item) => {
+              return (
+                <tr key={item.name}>
+                  <td>
+                    <input
+                      type="checkbox"
+                      defaultChecked={item.checked}
+                      onChange={() => !item.checked}
+                      onClick={() => console.log(item.checked)}
+                    />
+                  </td>
+                  <td>{item.name}</td>
+                </tr>
+              );
+            })}
           </tbody>
         </table>
       </div>
-      <button type="reset">Uncheck all</button>
+      <br />
+      <button type="submit" id="checkbox-clear-btn">
+        Uncheck All
+      </button>
     </div>
   );
 };
