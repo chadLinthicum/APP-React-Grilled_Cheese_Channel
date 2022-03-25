@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import uuid from "react-uuid";
 
 const Checklist = () => {
   const allItems = [
@@ -15,16 +16,16 @@ const Checklist = () => {
 
   // console.log(overwritten);
 
-  const [items, setItems] = useState(allItems);
+  const [item, setItem] = useState(allItems);
 
   return (
     <div className="checklist">
       <div>
         <br />
         <h2>
-          👨‍🍳 Do you have everything you need to be a top sandwich chef? 👩‍🍳
+          👨‍🍳 Do you have everything you need to be a top grilled cheese chef? 👩‍🍳
         </h2>
-        <h3>Check each item's box below:</h3>
+        <h3>Check each item below:</h3>
       </div>
       <form>
         <table>
@@ -35,17 +36,17 @@ const Checklist = () => {
             </tr>
           </thead>
           <tbody>
-            {items.map((item) => {
+            {item.map((theItem) => {
               return (
-                <tr key={item.name}>
+                <tr key={uuid()}>
                   <td>
                     <input
                       type="checkbox"
-                      defaultChecked={item.checked}
-                      onChange={() => !item.checked}
+                      defaultChecked={theItem.checked}
+                      onChange={() => !theItem.checked}
                     />
                   </td>
-                  <td>{item.name}</td>
+                  <td>{theItem.name}</td>
                 </tr>
               );
             })}
