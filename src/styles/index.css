@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap");
+
+body {
+  font-family: "Mochiy Pop P One", sans-serif;
+  background-color: #5998a3;
+  margin: 0;
+  color: #030909;
+}

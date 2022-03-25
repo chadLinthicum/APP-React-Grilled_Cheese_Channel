@@ -1,10 +1,9 @@
+import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import Game from "./components/Game";
-import Slideshow from "./components/Slideshow";
 import Checklist from "./components/Checklist";
-
-import { Route, Routes } from "react-router-dom";
+import Slideshow from "./components/Slideshow";
+import Game from "./components/Game";
 
 function App() {
   return (

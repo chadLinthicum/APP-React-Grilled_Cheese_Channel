@@ -1,4 +1,4 @@
-With the supplied artwork and color palette, create a microsite with different learning examples for a procedure:
+With the supplied artwork and color palette, create a micro-site with different learning examples for a procedure:
 
 
 Learning examples include:
@@ -8,7 +8,7 @@ o   Checklist:
 
 §  Present each step in the procedure with an active checkbox
 
-§  Include a “Clear All” button that removes all checkmarks
+§  Include a “Clear All” button that removes all check-marks
 
 
 

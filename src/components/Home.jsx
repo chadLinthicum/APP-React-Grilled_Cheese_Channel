@@ -1,5 +1,6 @@
 import React from "react";
 import sparklinGrilledCheese from "../assets/sparklinGrilledCheese.gif";
+import "../styles/home.css";
 
 const Home = () => {
   return (

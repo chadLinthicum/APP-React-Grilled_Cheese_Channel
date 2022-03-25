@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import uuid from "react-uuid";
+import "../styles/checklist.css";
 
 const Checklist = () => {
   const allItems = [
