@@ -23,46 +23,31 @@ const Slideshow = ({ slides }) => {
   }
 
   return (
-    <section className="slideshow">
-      <FaArrowAltCircleLeft className="arrow-left" onClick={prevSlide} />
-      <FaArrowAltCircleRight className="arrow-right" onClick={nextSlide} />
-      {SlideshowData.map((chadsThisItem, index) => {
-        return (
-          <div
-            className={index === current ? "slide-active" : "slide"}
-            key={uuid()}
-          >
-            {index === current && (
-              <img
-                src={chadsThisItem.image}
-                alt="grilled cheese"
-                className="image"
-              />
-            )}
-          </div>
-        );
-      })}
-    </section>
+    <>
+      <div className="slideshow-title">
+        <br />
+        <h2>👨‍🍳 Review the steps to cook the perfect grilled cheese! 👩‍🍳</h2>
+        <h3>Use the Left and Right arrows :</h3>
+      </div>
+      <section className="slideshow-pictures">
+        <FaArrowAltCircleLeft className="arrow-left" onClick={prevSlide} />
+        <FaArrowAltCircleRight className="arrow-right" onClick={nextSlide} />
+        {SlideshowData.map((chadsThisItem, index) => {
+          return (
+            <>
+              {index === current && (
+                <img
+                  src={chadsThisItem.image}
+                  alt="grilled cheese"
+                  className="image"
+                />
+              )}
+            </>
+          );
+        })}
+      </section>
+    </>
   );
 };
 
 export default Slideshow;
-
-/* <section aria-label="Photos">
-  <div className="carousel">
-    <button className="carousel-btn">&#8592;</button>
-    <button className="carousel-btn">&#8594;</button>
-    <ul>
-      <li className="slide">
-        <img src={firstA} alt="pan_off" />
-        <img src={firstB} alt="pan_on" />
-        <img src={second} alt="butter_bread" />
-        <img src={thirdA} alt="bread_in_pan" />
-        <img src={thirdB} alt="cheese_on_bread" />
-        <img src={fourth} alt="buttered_bread" />
-        <img src={fifth} alt="flip" />
-        <img src={sixth} alt="melted_cheese" />
-      </li>
-    </ul>
-  </div>
-</section>; */

@@ -1,6 +1,10 @@
-.slideshow {
+.slideshow-title {
+  text-align: center;
+}
+
+.slideshow-pictures {
   position: relative;
-  height: 75vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,10 +17,10 @@
 
 .arrow-right {
   position: absolute;
-  top: 50%;
+  top: 35%;
   right: 32px;
-  font-size: 3rem;
-  color: black;
+  font-size: 8rem;
+  color: rgba(0, 0, 0, 0.5);
   z-index: 10;
   cursor: pointer;
   user-select: none;
@@ -24,13 +28,29 @@
 
 .arrow-left {
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 32px;
-  font-size: 3rem;
-  color: black;
+  font-size: 8rem;
+  color: rgba(0, 0, 0, 0.5);
   z-index: 10;
   cursor: pointer;
   user-select: none;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+  color: black;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide-active {
+  opacity: 1;
+  transition-duration: 5s;
+  transform: scale(1.08);
 }
 
 /* .slideshow {

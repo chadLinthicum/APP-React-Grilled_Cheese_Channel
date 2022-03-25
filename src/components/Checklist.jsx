@@ -26,7 +26,7 @@ const Checklist = () => {
         <h2>
           👨‍🍳 Do you have everything you need to be a top grilled cheese chef? 👩‍🍳
         </h2>
-        <h3>Check each item below:</h3>
+        <h3>Check each item below :</h3>
       </div>
       <form>
         <table>
