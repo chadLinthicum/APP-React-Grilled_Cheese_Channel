@@ -9,6 +9,12 @@ const Checklist = () => {
     { name: "Cheese", checked: false },
   ];
 
+  // const overwritten = allItems.map((item) => {
+  //   return { ...item, checked: true };
+  // });
+
+  // console.log(overwritten);
+
   const [items, setItems] = useState(allItems);
 
   return (
@@ -20,7 +26,7 @@ const Checklist = () => {
         </h2>
         <h3>Check each item's box below:</h3>
       </div>
-      <div>
+      <form>
         <table>
           <thead>
             <tr>
@@ -37,7 +43,6 @@ const Checklist = () => {
                       type="checkbox"
                       defaultChecked={item.checked}
                       onChange={() => !item.checked}
-                      onClick={() => console.log(item.checked)}
                     />
                   </td>
                   <td>{item.name}</td>
@@ -46,11 +51,12 @@ const Checklist = () => {
             })}
           </tbody>
         </table>
-      </div>
-      <br />
-      <button type="submit" id="checkbox-clear-btn">
-        Uncheck All
-      </button>
+        <br />
+        <br />
+        <button type="reset" id="checkbox-clear-btn">
+          Clear All
+        </button>
+      </form>
     </div>
   );
 };
