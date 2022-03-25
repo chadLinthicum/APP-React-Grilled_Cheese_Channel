@@ -1,14 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/slideshow.css";
 import { SlideshowData } from "./SlideshowData";
+import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 
-const Slideshow = () => {
+const Slideshow = ({ slides }) => {
+  const [current, setCurrent] = useState(0);
+  const length = slides.length;
+
   return (
-    <div className="slideshow">
-      {SlideshowData.map((slide, index) => {
-        return <img src={slide.image} alt="grilled cheese" />;
+    <section className="slideshow">
+      <FaArrowAltCircleLeft className="arrow-left" />
+      <FaArrowAltCircleRight className="arrow-right" />
+      {SlideshowData.map((chadsThisItem, index) => {
+        return (
+          <img
+            src={chadsThisItem.image}
+            alt="grilled cheese"
+            className="image"
+          />
+        );
       })}
-    </div>
+    </section>
   );
 };
 
