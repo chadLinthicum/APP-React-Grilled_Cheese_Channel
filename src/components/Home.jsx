@@ -8,9 +8,7 @@ const Home = () => {
       <div className="home">
         <br />
         <h2>Welcome to Grilled Cheese Channel!</h2>
-        <h3>
-          Take a look around and get ready to make the best grilled cheese ever!
-        </h3>
+        <h3>Take a look around and prepare to make the best grilled cheese!</h3>
         <br />
         <img src={sparklinGrilledCheese} width="500" alt="" />
       </div>
