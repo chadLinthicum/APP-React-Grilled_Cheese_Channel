@@ -4,7 +4,7 @@ import "../styles/checklist.css";
 
 const Checklist = () => {
   const allItems = [
-    { name: "Pans", checked: false },
+    { name: "Pan", checked: false },
     { name: "Spatula", checked: false },
     { name: "Bread", checked: false },
     { name: "Butter", checked: false },
