@@ -13,7 +13,7 @@ export const SlideshowData = [
   },
   {
     image: require("../assets/02.png"),
-    description: "Step 3 - Apply butter to 1st slice of bread.",
+    description: "Step 3 - Apply butter to both slices of bread.",
   },
   {
     image: require("../assets/03a.png"),
@@ -25,7 +25,7 @@ export const SlideshowData = [
   },
   {
     image: require("../assets/04.png"),
-    description: "Step 6 - Place 2nd piece of buttered bread on cheese.",
+    description: "Step 6 - Place 2nd piece of bread on cheese.",
   },
   {
     image: require("../assets/05.png"),
@@ -33,7 +33,7 @@ export const SlideshowData = [
   },
   {
     image: require("../assets/06.png"),
-    description: "Wait until cheese is fully melted",
+    description: "Step 8 - Wait until cheese is fully melted.",
   },
   {
     image: require("../assets/sandwich-plated.png"),

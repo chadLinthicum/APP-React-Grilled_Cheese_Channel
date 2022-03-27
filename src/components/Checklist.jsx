@@ -4,11 +4,11 @@ import "../styles/checklist.css";
 
 const Checklist = () => {
   const allItems = [
-    { name: "Pan", checked: false },
+    { name: "Non-Stick Pan", checked: false },
     { name: "Spatula", checked: false },
-    { name: "Bread", checked: false },
+    { name: "2 Slices of Bread", checked: false },
     { name: "Butter", checked: false },
-    { name: "Cheese", checked: false },
+    { name: "1 Slice of Cheese", checked: false },
   ];
 
   // const overwritten = allItems.map((item) => {
@@ -42,6 +42,7 @@ const Checklist = () => {
                 <tr key={uuid()}>
                   <td>
                     <input
+                      className="checkboxes"
                       type="checkbox"
                       defaultChecked={theItem.checked}
                       onChange={() => !theItem.checked}
