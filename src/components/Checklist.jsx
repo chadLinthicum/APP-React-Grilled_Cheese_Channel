@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import uuid from "react-uuid";
 import "../styles/checklist.css";
+import remote from "../assets/remote.gif";
 
 const Checklist = () => {
   const allItems = [
@@ -24,7 +25,8 @@ const Checklist = () => {
       <div>
         <br />
         <h2>
-          👨‍🍳 Do you have everything you need to be a top grilled cheese chef? 👩‍🍳
+          👨‍🍳 Do you have everything you <i>remotely</i> need to create your
+          melted masterpiece!? 👩‍🍳
         </h2>
         <h3>Check each item below :</h3>
       </div>
@@ -59,6 +61,9 @@ const Checklist = () => {
         <button type="reset" id="checkbox-clear-btn">
           Clear All
         </button>
+        <br />
+        <br />
+        <img src={remote} alt="" className="remote" />
       </form>
     </div>
   );

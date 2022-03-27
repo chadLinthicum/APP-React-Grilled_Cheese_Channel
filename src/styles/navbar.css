@@ -12,10 +12,17 @@ li a {
   border-right: 1px solid black;
 }
 
-li a:hover,
-li a:focus {
+li a:hover {
   padding: 10px;
   background-color: #fffbf3;
+  color: #030909;
+  text-align: center;
+  float: left;
+}
+
+li a:focus {
+  padding: 10px;
+  background-color: #c2bfba;
   color: #030909;
   text-align: center;
   float: left;

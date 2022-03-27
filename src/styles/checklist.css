@@ -8,24 +8,28 @@ th {
   max-width: 70px;
   padding-left: 90px;
   padding-right: 90px;
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 tr td {
   border-bottom: 1px solid #000000;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   min-width: 350px;
 }
 
 input.checkboxes {
   cursor: pointer;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   margin: 10px;
 }
 
 .checklist {
   text-align: center;
+}
+
+.remote {
+  width: 10rem;
 }
 
 #checkbox-clear-btn {
@@ -34,7 +38,7 @@ input.checkboxes {
   background: #030909;
   color: #fffbf3;
   font-weight: bold;
-  font-size: 12pt;
+  font-size: 14.5pt;
   padding: 14px 12px;
   line-height: 0.5;
   box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.2);

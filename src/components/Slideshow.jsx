@@ -24,7 +24,10 @@ const Slideshow = ({ slides }) => {
     <>
       <div className="slideshow-title">
         <br />
-        <h2>👨‍🍳 Review the steps to cook the perfect grilled cheese! 👩‍🍳</h2>
+        <h2>
+          👨‍🍳 <i>Tune in</i> to these steps to cook the perfect grilled cheese!
+          👩‍🍳
+        </h2>
         <h3>Use the Left and Right arrows :</h3>
       </div>
       <section className="slideshow-pictures">
