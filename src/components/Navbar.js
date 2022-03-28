@@ -1,6 +1,4 @@
 import React from "react";
-// import stockImage from "../assets/stockImage.png";
-/* <img src={stockImage} width="75" alt="" /> */
 import { Link } from "react-router-dom";
 import "../styles/navbar.css";
 

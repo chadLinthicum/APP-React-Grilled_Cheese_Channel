@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "../styles/slideshow.css";
 import { SlideshowData } from "./SlideshowData";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
-import uuid from "react-uuid";
 
 const Slideshow = ({ slides }) => {
   const [current, setCurrent] = useState(0);

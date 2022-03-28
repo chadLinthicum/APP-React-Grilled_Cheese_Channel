@@ -1,28 +1,3 @@
-.Game {
-  text-align: center;
-  width: 100vw;
-  height: 100vh;
-}
-
-.Pictures {
-  margin: 10px;
-}
-
-.game-pics {
-  margin: 5px;
-  width: 150px;
-  height: 150px;
-}
-
-.Board {
-  width: 95%;
-  height: 175px;
-  border: 7px dotted rgb(0, 0, 0);
-  border-radius: 50px;
-  margin-left: 2%;
-  margin-right: 500px;
-}
-
 button {
   border: 1px solid #030909;
   border-radius: 4px;
@@ -46,4 +21,34 @@ button:hover {
   line-height: 0.5;
   box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.2);
   cursor: pointer;
+}
+
+.answer-image {
+  border: 5px solid rgb(0, 255, 76);
+  border-radius: 50px;
+}
+
+.board {
+  width: 95%;
+  height: 175px;
+  border: 7px dotted rgb(0, 0, 0);
+  border-radius: 50px;
+  margin-left: 2%;
+  margin-right: 500px;
+}
+
+.game {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.game-pics {
+  margin: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+.pictures {
+  margin: 10px;
 }

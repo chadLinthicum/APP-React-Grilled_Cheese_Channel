@@ -12,12 +12,6 @@ const Checklist = () => {
     { name: "1 Slice of Cheese", checked: false },
   ];
 
-  // const overwritten = allItems.map((item) => {
-  //   return { ...item, checked: true };
-  // });
-
-  // console.log(overwritten);
-
   const [item] = useState(allItems);
 
   return (
