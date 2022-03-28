@@ -17,40 +17,33 @@
 .Board {
   width: 95%;
   height: 175px;
-  border: 2px solid black;
+  border: 7px dotted rgb(0, 0, 0);
+  border-radius: 50px;
   margin-left: 2%;
   margin-right: 500px;
 }
 
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+button {
+  border: 1px solid #030909;
+  border-radius: 4px;
+  background: #030909;
+  color: #fffbf3;
+  font-weight: bold;
+  font-size: 14.5pt;
+  padding: 14px 12px;
+  line-height: 0.5;
+  box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.2);
 }
 
-.flexbox {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 768px;
-  height: 100vh;
-  overflow: hidden;
-  margin: 0 auto;
-  padding: 15px;
-}
-
-.flexbox .board {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 300px;
-
-  padding: 15px;
-}
-
-.flexbox .board .card {
-  padding: 15px 25px;
-  background-color: blue;
+button:hover {
+  border: 1px solid #030909;
+  border-radius: 4px;
+  background: #fffbf3;
+  color: #030909;
+  font-weight: bold;
+  font-size: 14.5pt;
+  padding: 14px 12px;
+  line-height: 0.5;
+  box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  margin-bottom: 15px;
-} */
+}

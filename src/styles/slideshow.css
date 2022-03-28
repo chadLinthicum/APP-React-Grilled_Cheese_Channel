@@ -61,36 +61,3 @@
   justify-content: center;
   align-items: center;
 }
-
-/* .slideshow {
-  text-align: center;
-  box-shadow: none;
-} */
-
-/* body {
-  text-align: center;
-}
-
-.carousel-btn {
-  background: none;
-  border: none;
-  font-size: 4rem;
-  top: 50%;
-  background-color: rgba(0, 0, 0, 0.1);
-  border-radius: 5rem;
-  margin: 10px;
-}
-
-.carousel-btn:hover,
-.carousel-btn:focus {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
-.carousel-btn:focus {
-  outline: 1px solid black;
-}
-
-.slide {
-  background-color: #5998a3;
-} */

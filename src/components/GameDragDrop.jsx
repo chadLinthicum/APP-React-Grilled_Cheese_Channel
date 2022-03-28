@@ -27,6 +27,7 @@ const DragDrop = () => {
           return <GamePicture image={myThis.image} id={myThis.id} />;
         })}
       </div>
+
       <div className="Board" ref={drop}>
         {board.map((myThis) => {
           return <GamePicture image={myThis.image} id={myThis.id} />;

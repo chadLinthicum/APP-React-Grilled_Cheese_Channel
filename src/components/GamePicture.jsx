@@ -15,7 +15,7 @@ function GamePicture({ id, image }) {
       className="game-pics"
       src={image}
       alt="game"
-      style={{ border: isDragging ? "5px solid pink" : "0px" }}
+      style={{ border: isDragging ? "3px solid rgb(255, 251, 0)" : "0px" }}
       ref={drag}
     />
   );
