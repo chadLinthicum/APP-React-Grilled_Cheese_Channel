@@ -1,5 +1,5 @@
 import React from "react";
-import Picture from "./Picture";
+import GamePicture from "./GamePicture";
 import { SlideshowData } from "./SlideshowData";
 
 const DragDrop = () => {
@@ -7,7 +7,7 @@ const DragDrop = () => {
     <>
       <div className="Pictures">
         {SlideshowData.map((myThis) => {
-          return <Picture image={myThis.image} id={myThis.id} />;
+          return <GamePicture image={myThis.image} id={myThis.id} />;
         })}
       </div>
       <div className="Board">Board</div>

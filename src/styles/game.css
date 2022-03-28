@@ -15,9 +15,10 @@
 }
 
 .Board {
-  width: 300px;
+  width: 93%;
   height: 500px;
   border: 2px solid black;
+  margin: 50px;
 }
 
 /* * {
