@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../styles/slideshow.css";
 import { SlideshowData } from "./SlideshowData";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
-// import uuid from "react-uuid";
+import uuid from "react-uuid";
 
 const Slideshow = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -15,10 +15,6 @@ const Slideshow = ({ slides }) => {
   const prevSlide = () => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
-
-  if (!Array.isArray(slides) || slides.length <= 0) {
-    return null; //if no data in SlideshowData then return null
-  }
 
   return (
     <>
@@ -37,7 +33,7 @@ const Slideshow = ({ slides }) => {
           return (
             <>
               {index === current && (
-                <div>
+                <div key={myThis.id}>
                   <img
                     src={myThis.image}
                     alt="grilled cheese"
