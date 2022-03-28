@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/APP_React_Grilled-Cheese-Channel/static/css/main.42a4d8b9.css",
+    "main.js": "/APP_React_Grilled-Cheese-Channel/static/js/main.f749b0d0.js",
+    "static/media/sparklinGrilledCheese.gif": "/APP_React_Grilled-Cheese-Channel/static/media/sparklinGrilledCheese.5d84e219802a5d01edf8.gif",
+    "static/media/06.png": "/APP_React_Grilled-Cheese-Channel/static/media/06.3e7ed616a9003c476997.png",
+    "static/media/05.png": "/APP_React_Grilled-Cheese-Channel/static/media/05.39044cfe6edce9a85216.png",
+    "static/media/02.png": "/APP_React_Grilled-Cheese-Channel/static/media/02.719ac7385e774a622e03.png",
+    "static/media/04.png": "/APP_React_Grilled-Cheese-Channel/static/media/04.e2d4f53c3da7b1f7f6df.png",
+    "static/media/01a.png": "/APP_React_Grilled-Cheese-Channel/static/media/01a.b2187d4f5c0584034802.png",
+    "static/media/03b.png": "/APP_React_Grilled-Cheese-Channel/static/media/03b.59297a4518024195f81b.png",
+    "static/media/03a.png": "/APP_React_Grilled-Cheese-Channel/static/media/03a.92efbd11c1cc0e407942.png",
+    "static/media/01b.png": "/APP_React_Grilled-Cheese-Channel/static/media/01b.aeffc4f28495d25f2a74.png",
+    "static/media/sandwich-plated.png": "/APP_React_Grilled-Cheese-Channel/static/media/sandwich-plated.5cbe1993ae31c3af06e6.png",
+    "static/media/readyToCook.png": "/APP_React_Grilled-Cheese-Channel/static/media/readyToCook.dcfdf83cf590c8a9c0cd.png",
+    "static/media/gameAnswer.PNG": "/APP_React_Grilled-Cheese-Channel/static/media/gameAnswer.c08f33f586d8e868036d.PNG",
+    "static/media/remote.gif": "/APP_React_Grilled-Cheese-Channel/static/media/remote.419d9cfda077334c3ada.gif",
+    "index.html": "/APP_React_Grilled-Cheese-Channel/index.html",
+    "main.42a4d8b9.css.map": "/APP_React_Grilled-Cheese-Channel/static/css/main.42a4d8b9.css.map",
+    "main.f749b0d0.js.map": "/APP_React_Grilled-Cheese-Channel/static/js/main.f749b0d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42a4d8b9.css",
+    "static/js/main.f749b0d0.js"
+  ]
+}
