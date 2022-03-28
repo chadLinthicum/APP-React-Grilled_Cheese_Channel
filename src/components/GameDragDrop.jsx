@@ -5,6 +5,10 @@ import { useState } from "react";
 import { useDrop } from "react-dnd";
 
 const DragDrop = () => {
+  // setTimeout((e) => {
+  //   e.target.style.display = "none";
+  // }, 0);
+
   const [board, setBoard] = useState([]);
 
   const [{ isOver }, drop] = useDrop(() => ({
@@ -16,7 +20,8 @@ const DragDrop = () => {
   }));
 
   const addImageToBoard = (id) => {
-    console.log(id);
+    const pictureList = SlideshowData.filter((myThis) => id === myThis.id);
+    setBoard((board) => [...board, pictureList[0]]);
   };
 
   return (
