@@ -4,6 +4,7 @@ import { useDrag } from "react-dnd";
 function GamePicture({ id, image }) {
   const [{ isDragging }, drag] = useDrag(() => ({
     type: "image",
+    item: { id: id },
     collect: (monitor) => ({
       isDragging: !!monitor.isDragging(),
     }),

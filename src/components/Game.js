@@ -11,7 +11,7 @@ const Game = () => {
         <GameDragDrop />
       </DndProvider>
     </div>
-    //Highest order component. Everything inside now has access to the functionality. Must pass a backend property into it the provider.
+    //DndProvider - Highest order component. Everything inside now has access to the functionality. Must pass a backend property into it the provider.
   );
 };
 
