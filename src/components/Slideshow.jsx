@@ -33,17 +33,17 @@ const Slideshow = ({ slides }) => {
       <section className="slideshow-pictures">
         <FaArrowAltCircleLeft className="arrow-left" onClick={prevSlide} />
         <FaArrowAltCircleRight className="arrow-right" onClick={nextSlide} />
-        {SlideshowData.map((myThisItem, index) => {
+        {SlideshowData.map((myThis, index) => {
           return (
             <>
               {index === current && (
                 <div>
                   <img
-                    src={myThisItem.image}
+                    src={myThis.image}
                     alt="grilled cheese"
                     className="image"
                   />
-                  <div className="description">{myThisItem.description}</div>
+                  <div className="description">{myThis.description}</div>
                 </div>
               )}
             </>

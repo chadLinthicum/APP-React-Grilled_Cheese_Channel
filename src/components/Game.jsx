@@ -1,25 +1,17 @@
 import React from "react";
 import "../styles/game.css";
-import Board from "./Board";
-import Card from "./Card";
+import { DndProvider } from "react-dnd";
+import { HTML5Backend } from "react-dnd-html5-backend";
+import DragDrop from "./DragDrop";
 
 const Game = () => {
   return (
-    <div className="game">
-      <main className="flexbox">
-        <Board id="board-1" className="board">
-          <Card id="card-1" className="card" draggable="true">
-            <p>Card One</p>
-          </Card>
-        </Board>
-
-        <Board id="board-2" className="board">
-          <Card id="card-2" className="card" draggable="true">
-            <p>Card Two</p>
-          </Card>
-        </Board>
-      </main>
+    <div className="Game">
+      <DndProvider backend={HTML5Backend}>
+        <DragDrop />
+      </DndProvider>
     </div>
+    //Highest order component. Everything inside now has access to the functionality. Must pass a backend property into it the provider.
   );
 };
 
