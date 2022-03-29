@@ -9,7 +9,7 @@
  <br>
  <b>Installation:</b> Create a new app using create-react-app. Download the repository and drag all items into your created app.<br>
  <br>
- <b>Logistics:</b> Project created using React Library, JSX, NodeJS, JS, HTML, and CSS. <br>
+ <b>Logistics:</b> Project created using React Library, React DND Library, JSX, NodeJS, JS, HTML, and CSS. <br>
  <br>
  <b>Author:</b> Chad Linthicum<br>
  <a href="https://www.linkedin.com/in/chad-a-linthicum/">Linked-In<a>
