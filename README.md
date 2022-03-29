@@ -7,7 +7,7 @@
  <br>
  <b>Download: </b><a href="https://github.com/chadLinthicum/APP_React_Grilled-Cheese-Channel">Here</a><br>
  <br>
- <b>Installation:</b> Create a new app using create-react-app. Download the repository and drag all items into your created app.<br>
+ <b>Installation:</b> Create a new app using create-react-app. Download the repository and drag all items into your created app root.<br>
  <br>
  <b>Logistics:</b> Project created using React Library, React DND Library, JSX, NodeJS, JS, HTML, and CSS. <br>
  <br>
