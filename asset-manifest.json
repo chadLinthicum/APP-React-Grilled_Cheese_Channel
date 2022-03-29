@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/APP_React_Grilled-Cheese-Channel/static/css/main.42a4d8b9.css",
-    "main.js": "/APP_React_Grilled-Cheese-Channel/static/js/main.3fc7fbac.js",
+    "main.js": "/APP_React_Grilled-Cheese-Channel/static/js/main.ac5d7191.js",
     "static/media/sparklinGrilledCheese.gif": "/APP_React_Grilled-Cheese-Channel/static/media/sparklinGrilledCheese.5d84e219802a5d01edf8.gif",
     "static/media/06.png": "/APP_React_Grilled-Cheese-Channel/static/media/06.3e7ed616a9003c476997.png",
     "static/media/05.png": "/APP_React_Grilled-Cheese-Channel/static/media/05.39044cfe6edce9a85216.png",
@@ -17,10 +17,10 @@
     "static/media/remote.gif": "/APP_React_Grilled-Cheese-Channel/static/media/remote.419d9cfda077334c3ada.gif",
     "index.html": "/APP_React_Grilled-Cheese-Channel/index.html",
     "main.42a4d8b9.css.map": "/APP_React_Grilled-Cheese-Channel/static/css/main.42a4d8b9.css.map",
-    "main.3fc7fbac.js.map": "/APP_React_Grilled-Cheese-Channel/static/js/main.3fc7fbac.js.map"
+    "main.ac5d7191.js.map": "/APP_React_Grilled-Cheese-Channel/static/js/main.ac5d7191.js.map"
   },
   "entrypoints": [
     "static/css/main.42a4d8b9.css",
-    "static/js/main.3fc7fbac.js"
+    "static/js/main.ac5d7191.js"
   ]
 }
