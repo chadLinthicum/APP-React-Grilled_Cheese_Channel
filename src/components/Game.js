@@ -15,6 +15,7 @@ const Game = () => {
   return (
     <div className="game">
       <div>
+        <br />
         <h2>
           👨‍🍳 Can you <i>rerun</i> through the steps from memory? 👩‍🍳
         </h2>
