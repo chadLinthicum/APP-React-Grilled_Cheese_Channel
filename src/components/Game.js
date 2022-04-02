@@ -7,11 +7,13 @@ import { useState } from "react";
 import gameAnswer from "../assets/gameAnswer.PNG";
 
 const Game = () => {
+  //Toggle image from being hidden to displaying by setting the rendered div's style to the useState variable and the button onClick to the showImage function
   const [display, setDisplay] = useState({ display: "none" });
   const showImage = () => {
     setDisplay({ display: "inline-block" });
   };
 
+  //
   return (
     <div className="game">
       <div>
@@ -35,7 +37,6 @@ const Game = () => {
         <img src={gameAnswer} alt="" className="answer-image" />
       </div>
     </div>
-    //DndProvider - Highest order component. Everything inside now has access to the functionality. Must pass a backend property into it the provider.
   );
 };
 
