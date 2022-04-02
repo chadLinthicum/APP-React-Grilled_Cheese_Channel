@@ -1,9 +1,9 @@
 import React from "react";
 import GamePicture from "./GamePicture";
-// import { SlideshowData } from "./SlideshowData";
 import { GameData } from "./GameData";
 import { useState } from "react";
 import { useDrop } from "react-dnd";
+// import { SlideshowData } from "./SlideshowData";
 
 const DragDrop = () => {
   const [board, setBoard] = useState([]);
@@ -25,7 +25,6 @@ const DragDrop = () => {
   // useEffect(() => {
   //   console.log(rando());
   // });
-
   // const rando = () => {
   //   SlideshowData.sort(function () {
   //     return 0.5 - Math.random();
