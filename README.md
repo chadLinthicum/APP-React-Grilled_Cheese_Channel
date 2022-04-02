@@ -9,11 +9,11 @@
  <br>
  <b>Installation:</b> Create a new app using create-react-app. Download the repository and drag all items into your created app root.<br>
  <br>
- <b>Logistics:</b> o	A take-home-project microsite dedicated to teaching you to make the perfect grilled cheese sandwich. 
-o	React single NavBar component. 
-o	Checklist and images rendered using array mapping.
-o	Utilizes the React DND library to drag-and-drop elements.
-o	useState to show hidden div element onClick.  <br>
+ <b>Logistics:</b> 
+<br>o	React single NavBar component. 
+<br>o	Checklist and SlideShow images rendered using array mapping.
+<br>o	Utilizes the React DND library to drag-and-drop elements.
+<br>o	useState to show hidden div element onClick.  <br>
  <br>
  <b>Author:</b> Chad Linthicum<br>
  <a href="https://www.linkedin.com/in/chad-a-linthicum/">Linked-In<a>
