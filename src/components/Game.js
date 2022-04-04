@@ -22,9 +22,11 @@ const Game = () => {
           👨‍🍳 Can you <i>rerun</i> through the steps from memory? 👩‍🍳
         </h2>
         <h3>Drag the icons into the drop area and then check your answer : </h3>
-        <DndProvider backend={HTML5Backend}>
-          <GameDragDrop />
-        </DndProvider>
+        <div>
+          <DndProvider backend={HTML5Backend}>
+            <GameDragDrop />
+          </DndProvider>
+        </div>
       </div>
       <div>
         <br />
