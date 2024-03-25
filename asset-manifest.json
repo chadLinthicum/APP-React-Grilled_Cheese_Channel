@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/css/main.9909def6.css",
-    "main.js": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/js/main.1cc423b9.js",
-    "static/media/sparklinGrilledCheese.gif": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/media/sparklinGrilledCheese.5d84e219802a5d01edf8.gif",
-    "static/media/06.png": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/media/06.3e7ed616a9003c476997.png",
-    "static/media/05.png": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/media/05.39044cfe6edce9a85216.png",
-    "static/media/02.png": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/media/02.719ac7385e774a622e03.png",
-    "static/media/04.png": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/media/04.e2d4f53c3da7b1f7f6df.png",
-    "static/media/01a.png": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/media/01a.b2187d4f5c0584034802.png",
-    "static/media/03b.png": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/media/03b.59297a4518024195f81b.png",
-    "static/media/03a.png": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/media/03a.92efbd11c1cc0e407942.png",
-    "static/media/01b.png": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/media/01b.aeffc4f28495d25f2a74.png",
-    "static/media/sandwich-plated.png": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/media/sandwich-plated.a1c04544f929f54d46bd.png",
-    "static/media/readyToCook.png": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/media/readyToCook.dcfdf83cf590c8a9c0cd.png",
-    "static/media/gameAnswer.PNG": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/media/gameAnswer.c08f33f586d8e868036d.PNG",
-    "static/media/remote.gif": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/media/remote.419d9cfda077334c3ada.gif",
-    "index.html": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/index.html",
-    "main.9909def6.css.map": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/css/main.9909def6.css.map",
-    "main.1cc423b9.js.map": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/js/main.1cc423b9.js.map"
+    "main.css": "/APP-React-Grilled_Cheese_Channel/static/css/main.9909def6.css",
+    "main.js": "/APP-React-Grilled_Cheese_Channel/static/js/main.889ec375.js",
+    "static/media/sparklinGrilledCheese.gif": "/APP-React-Grilled_Cheese_Channel/static/media/sparklinGrilledCheese.5d84e219802a5d01edf8.gif",
+    "static/media/06.png": "/APP-React-Grilled_Cheese_Channel/static/media/06.3e7ed616a9003c476997.png",
+    "static/media/05.png": "/APP-React-Grilled_Cheese_Channel/static/media/05.39044cfe6edce9a85216.png",
+    "static/media/02.png": "/APP-React-Grilled_Cheese_Channel/static/media/02.719ac7385e774a622e03.png",
+    "static/media/04.png": "/APP-React-Grilled_Cheese_Channel/static/media/04.e2d4f53c3da7b1f7f6df.png",
+    "static/media/01a.png": "/APP-React-Grilled_Cheese_Channel/static/media/01a.b2187d4f5c0584034802.png",
+    "static/media/03b.png": "/APP-React-Grilled_Cheese_Channel/static/media/03b.59297a4518024195f81b.png",
+    "static/media/03a.png": "/APP-React-Grilled_Cheese_Channel/static/media/03a.92efbd11c1cc0e407942.png",
+    "static/media/01b.png": "/APP-React-Grilled_Cheese_Channel/static/media/01b.aeffc4f28495d25f2a74.png",
+    "static/media/sandwich-plated.png": "/APP-React-Grilled_Cheese_Channel/static/media/sandwich-plated.a1c04544f929f54d46bd.png",
+    "static/media/readyToCook.png": "/APP-React-Grilled_Cheese_Channel/static/media/readyToCook.dcfdf83cf590c8a9c0cd.png",
+    "static/media/gameAnswer.PNG": "/APP-React-Grilled_Cheese_Channel/static/media/gameAnswer.c08f33f586d8e868036d.PNG",
+    "static/media/remote.gif": "/APP-React-Grilled_Cheese_Channel/static/media/remote.419d9cfda077334c3ada.gif",
+    "index.html": "/APP-React-Grilled_Cheese_Channel/index.html",
+    "main.9909def6.css.map": "/APP-React-Grilled_Cheese_Channel/static/css/main.9909def6.css.map",
+    "main.889ec375.js.map": "/APP-React-Grilled_Cheese_Channel/static/js/main.889ec375.js.map"
   },
   "entrypoints": [
     "static/css/main.9909def6.css",
-    "static/js/main.1cc423b9.js"
+    "static/js/main.889ec375.js"
   ]
 }
