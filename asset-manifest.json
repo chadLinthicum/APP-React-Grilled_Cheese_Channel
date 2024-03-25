@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/css/main.42a4d8b9.css",
+    "main.css": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/css/main.9909def6.css",
     "main.js": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/js/main.1cc423b9.js",
     "static/media/sparklinGrilledCheese.gif": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/media/sparklinGrilledCheese.5d84e219802a5d01edf8.gif",
     "static/media/06.png": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/media/06.3e7ed616a9003c476997.png",
@@ -16,11 +16,11 @@
     "static/media/gameAnswer.PNG": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/media/gameAnswer.c08f33f586d8e868036d.PNG",
     "static/media/remote.gif": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/media/remote.419d9cfda077334c3ada.gif",
     "index.html": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/index.html",
-    "main.42a4d8b9.css.map": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/css/main.42a4d8b9.css.map",
+    "main.9909def6.css.map": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/css/main.9909def6.css.map",
     "main.1cc423b9.js.map": "/chadLinthicum/APP-React-Grilled_Cheese_Channel/static/js/main.1cc423b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.42a4d8b9.css",
+    "static/css/main.9909def6.css",
     "static/js/main.1cc423b9.js"
   ]
 }
