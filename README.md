@@ -3,7 +3,7 @@
  <br>
  <b>Description:</b> A microsite with a retro vibe dedicated to teaching you how to make the perfect grilled cheese sandwich!!<br>
  <br>
- <b>View In Browser: </b><a href="https://chadlinthicum.github.io/APP_React_Grilled-Cheese-Channel/"> Here</a><br>
+ <b>View In Browser: </b><a href="https://chadlinthicum.github.io/APP-React-Grilled_Cheese_Channel/"> Here</a><br>
  <br>
  <b>Download: </b><a href="https://github.com/chadLinthicum/APP_React_Grilled-Cheese-Channel">Here</a><br>
  <br>
